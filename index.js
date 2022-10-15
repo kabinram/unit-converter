@@ -8,6 +8,12 @@ const meterToFeet = 3.281
 const litreToGallon = 0.264 
 const kiloToPound = 2.204 
 
+if(inputEl.value == 1){
+    lengthEl.textContent= `1 meters = 3.28 feet | 1 feet = 0.30 meters`
+    volumeEl.textContent= `1 litres = 0.26 gallons | 1 gallons = 3.79 litres`
+    massEl.textContent = `1 kilos = 2.20 pounds | 1 pounds = 0.45 kilos`
+}
+
 convertBtn.addEventListener("click",function(){
     let inputGiven = inputEl.value
     
