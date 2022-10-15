@@ -12,12 +12,12 @@ convertBtn.addEventListener("click",function(){
     let inputGiven = inputEl.value
     
     // length
-        lengthEl.textContent = `${inputGiven} meters = ${(inputGiven * meterToFeet).toFixed(3)} feet | ${inputGiven} feet = ${(inputGiven / meterToFeet).toFixed(3)} meters`
+        lengthEl.textContent = `${inputGiven} meters = ${(inputGiven * meterToFeet).toFixed(2)} feet | ${inputGiven} feet = ${(inputGiven / meterToFeet).toFixed(2)} meters`
         
     // volume   
-        volumeEl.textContent = `${inputGiven} litres = ${(inputGiven * litreToGallon).toFixed(3)} gallons | ${inputGiven} gallons = ${(inputGiven / litreToGallon).toFixed(3)} litres`
+        volumeEl.textContent = `${inputGiven} litres = ${(inputGiven * litreToGallon).toFixed(2)} gallons | ${inputGiven} gallons = ${(inputGiven / litreToGallon).toFixed(2)} litres`
         
     // mass
-        massEl.textContent = `${inputGiven} kilos = ${(inputGiven * kiloToPound).toFixed(3)} pounds | ${inputGiven} pounds = ${(inputGiven / kiloToPound).toFixed(3)} kilos`
+        massEl.textContent = `${inputGiven} kilos = ${(inputGiven * kiloToPound).toFixed(2)} pounds | ${inputGiven} pounds = ${(inputGiven / kiloToPound).toFixed(2)} kilos`
    
 })
